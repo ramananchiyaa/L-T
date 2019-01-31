@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header_portion{
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 69px;
+    background-color: #eed943;
+}
+.header_part_left{
+    background: url('../images/logo_header.png');
+    width: 375px;
+    height: 76px;
+}
+
+.header_middle_part{
+float:left;
+width:1210px;
+height:76px;
+background:#345981;
+position: absolute;
+top:0px;
+left:323px;
+z-index: -1;
+}
+.header_middle_part h2{
+    float: left;
+    display: block;
+    padding-right: 15px;
+    margin: 16px 0px 0px 65px;
+    font-weight: 400;
+    color: white;
+    border-right: 1px solid grey;
+}
+.header_middle_part h5{
+    color: #d7c84d;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    width: 100%;
+    padding-left: 228px;
+    padding-top: 25px;
+}
